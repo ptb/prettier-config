@@ -1,8 +1,52 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
+  "author": {
+    "email": "peter@ptb.dev",
+    "name": "Peter T Bosse II",
+    "url": "https://ptb.dev/"
+  },
+  "bugs": {
+    "url": "https://github.com/ptb/prettier-config/issues"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "8.17.0",
+    "prettier": "3.4.2",
+    "typescript": "5.7.2"
+  },
+  "description": "Shared Prettier config",
+  "devDependencies": {
+    "@ptb/typescript-config": "2024.12.1"
+  },
   "engines": {
     "node": "^20.9 || ^22.11",
     "pnpm": "^9"
   },
-  "type": "module"
+  "files": [
+    "prettier.config.js",
+    "types.d.ts"
+  ],
+  "keywords": [
+    "prettier"
+  ],
+  "license": "Apache-2.0",
+  "main": "./prettier.config.js",
+  "maintainers": [
+    {
+      "email": "peter@ptb.dev",
+      "name": "Peter T Bosse II",
+      "url": "https://ptb.dev/"
+    }
+  ],
+  "name": "@ptb/prettier-config",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ptb/prettier-config"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "types": "./types.d.ts",
+  "version": "2024.12.1"
 }
